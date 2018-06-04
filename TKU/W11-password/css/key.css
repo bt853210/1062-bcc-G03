@@ -1,0 +1,14 @@
+#pw {
+    border: 10px solid purple;
+    text-align: center;
+    width: 350px;
+}
+
+#pw input {
+    margin: 10px;
+}
+
+#pw #bombs img {
+    width: 25px;
+    margin: 5px 5px 10px 5px;
+}
