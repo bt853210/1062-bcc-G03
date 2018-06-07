@@ -1,5 +1,4 @@
-
-body {
+#blog {
     width: 80%;
     margin: 20px auto;
     border: 20px solid #bdc3c7;
@@ -8,27 +7,25 @@ body {
     font-family: 'Source Sans Pro';
 }
 
-.post {
-   margin-bottom: 20px;
+#blog .post {
+    margin-bottom: 20px;
 }
 
-.date {
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+#blog .date {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     color: #3498db;
 }
 
-.quote{
-  border-left: 5px solid #bdc3c7;
-  padding: 5px;
-}
-    
-h2 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #374c60;
+#blog .quote {
+    border-left: 5px solid #bdc3c7;
+    padding: 5px;
 }
 
-hr{
-  
+#blog h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #374c60;
 }
+
+#blog hr {}
