@@ -1,0 +1,87 @@
+#e h1{
+     color:#cb2929;
+     font-size: 50px;
+     font-weight: 600;
+     font-family: cwTeXYen;
+     margin: 1.66%;
+    }
+#e h2{
+    color:#811f1f;
+    font-family:  cwTeXKai;
+    font-size: 20px;    
+    text-align: center;
+    }
+#e  h3{
+    color: #0f6390;
+    font-family:  cwTeXKai;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 1.66%;
+    padding-bottom: 2px;
+    width: 70%;
+    border-bottom: 5px solid #138ee8;
+    }
+#e h4{
+   color:rgb(21, 104, 114);
+  }
+#e h5{
+    color:#177256;
+    font-family:  cwTeXKai;
+    font-size: 20px;    
+    text-align: center; 
+     margin: 1.66%;
+}
+#e li{
+   font-family:  cwTeXKai;
+   color:#5555fc;
+   margin: 8px 5px 5px 20px; 
+   font-size: 18px;
+   font-weight: 600;
+   }
+#e p{
+  color:rgb(134, 52, 216);
+  font-family:  cwTeXKai;
+  font-style: italic;
+  font-weight: 600;
+  }
+#e .con{
+     background-color:rgb(231, 231, 240);
+     width: 600px;
+     margin: 10px 10px 10px 120px;
+     }
+#e body {
+     background-color: #f0cbcb;
+     border: 3px solid #e26767;
+     width: 900px;
+     position: absolute;
+     left: 50%;
+     margin-left: -450px;
+    }
+#e table,tr,td{
+      background-color: #dfd0ea;
+     border: 1px solid #f28a8a;
+     border-collapse:collapse;
+         }
+ #e .money{
+        color:rgb(255, 56, 202);
+        font-size:25px;
+        text-decoration: underline;
+        }
+#e .date{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color:#fafafa;
+    text-align:left;
+}
+#e .dateright{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color:#fafafa;
+    text-align:right;
+}
+#info {
+            width: 60%;
+            height: 100px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
