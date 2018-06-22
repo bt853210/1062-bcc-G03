@@ -21,7 +21,8 @@
         margin: 10px 10px 10px 180px;
 } 
 #e p{
-        color:rgb(221, 123, 187);
+        color:rgb(34, 183, 80);
+    
         }
 #e .con{
             background-color:rgb(231, 231, 240);
@@ -34,6 +35,7 @@
         width: 900px;
         position: absolute;
         left: 50%;
+        margin-bottom: 50px;
         margin-left: -450px;
         }
 #e table{
