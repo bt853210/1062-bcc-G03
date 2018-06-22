@@ -3,16 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title>Project: Travel webpage</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="author" content="http://webthemez.com" />
-    <!-- css -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link href="/css/flexslider.css" rel="stylesheet" />
-    <link href="/css/style.css" rel="stylesheet" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/clean-blog.min.css" rel="stylesheet">
         <style>
-            #t body{
+            #t {
                 background-color:bisque;
             }
             #t h1{
@@ -28,7 +33,7 @@
                 background-color:rgb(231, 231, 240);
                 width: 800px;
             }
-            #t body {
+            #t {
                 background-color: #f0cbcb;
                 border: 3px solid #e26767;
                 width: 900px;
@@ -39,113 +44,65 @@
         </style>
     </head>
     <body>
-      
-          <div id="wrapper" class="home-page">
-        <div class="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="pull-left hidden-xs">
-                            <i class="fa fa-clock-o"></i>
-                            <span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
-                        </p>
-                        <p class="pull-right">
-                            <i class="fa fa-phone"></i>Tel No. (+001) 123-456-789</p>
+      <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Start Our Bootstrap</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="dropdown  nav-item">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">TKU <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/TKU/W5-Blog/blog.html">W5-blog</a></li>
+                            <li><a href="/TKU/W5-ImageGallery/ImageGallery.html">W5-Image Gallery</a></li>
+                            <li><a href="/TKU/W8-tku60/tku60.html">W8-淡江大戲</a></li>
+                            <li><a href="/TKU/W11-password/password.html">W11-終極密碼</a></li>
+                            <li><a href="travel.html">G1: Travel</a></li>
+                            <li><a href="/TKU/tkugroup/recipebook.html">G2: Recipe Book</a></li>
+                            <li><a href="/TKU/tkugroup/blog.html">G3: Blog</a></li>
+                            <li><a href="/TKU/tkugroup/eventinvite.html">G4: Event Invite</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown  nav-item">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">心得<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/TKU/Experience/206417080">206417080塗奕穎</a></li>
+                            <li><a href="/TKU/Experience/206410036">206410036姜雅庭</a></li>
+                            <li><a href="/TKU/Experience/405118125">405118125王韻婷</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('/img/294266_1.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>G03</h1>
+                        <span class="subheading">206417080塗奕穎<br>206410036姜雅庭<br>405118125王韻婷</span>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- start header -->
-        <header>
-            <div class="navbar navbar-default navbar-static-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="/index.html">
-                            <img src="/img/logo.png" alt="logo" />
-                        </a>
-                    </div>
-                    <div class="navbar-collapse collapse ">
-                        <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="/index.html">Home</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="/about.html">Company</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Our Team</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">News</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Investors</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="/services.html">Services</a>
-                            </li>
-                            <li>
-                                <a href="/portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="/pricing.html">Pricing</a>
-                            </li>
-                            <li>
-                                <a href="/contact.html">Contact</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">TKU
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="/tku/imagegallery.html">W4 - Image Gallery</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tku/blog.html">W4 - Blog</a>
-                                    </li>
-									<li>
-										<a href="/tku60-student/tku60.html">W8 - TKU60</a>
-									</li>
-                                    <li>
-                                        <a href="/tkugroup/travel.html">G1: Travel</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tkugroup/recipebook.html">G2: Recipe Book</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tkugroup/blog.html">G3: Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tkugroup/eventinvite.html">G4: Event Invite</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-    </div>
-    </div>
     </header>
-    </div>
        <div id='t'>
         <h1 align="center">Travel to Ludao</h1>
         <p align="center">綠島是一座位於台東外海、太平洋中的海島<br>原名火燒島，為台灣第四大附屬島，行政上屬於台東縣</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/2010_07_15530_5509%2C_Chintsun_Taiwan.JPG/1280px-2010_07_15530_5509%2C_Chintsun_Taiwan.JPG" width="500">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/2010_07_15530_5509%2C_Chintsun_Taiwan.JPG/1280px-2010_07_15530_5509%2C_Chintsun_Taiwan.JPG" width="894">
         <ol>
         <li><strong>藍色珊瑚礁浮潛</strong></li>
         <img src="http://www.blue-safari.com.tw/images/2015_pic20.jpg" width="500">
@@ -155,21 +112,11 @@
         <p class="con">位於綠島西北岬角附近的綠島燈塔，純白圓筒造型燈塔，佇立碧海藍天與青翠綠坡，漫步在「柴口」的岬灣，從白色的貝殼沙灘視野往前延伸，燈塔的白色倒影映在寶藍色的海面上，少了張牙舞爪的海浪猛力拍打海岸，寧靜的蔚藍與單純的潔白，頗具地中海風情。</p>
         </ol>
         </div>
-            <!-- javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/jquery.js"></script>
-    <script src="/js/jquery.easing.1.3.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/jquery.fancybox.pack.js"></script>
-    <script src="/js/jquery.fancybox-media.js"></script>
-    <script src="/js/jquery.flexslider.js"></script>
-    <script src="/js/animate.js"></script>
-    <!-- Vendor Scripts -->
-    <script src="/js/modernizr.custom.js"></script>
-    <script src="/js/jquery.isotope.min.js"></script>
-    <script src="/js/jquery.magnific-popup.min.js"></script>
-    <script src="/js/animate.js"></script>
-    <script src="/js/custom.js"></script>
+ <!-- Bootstrap core JavaScript -->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../../js/clean-blog.min.js"></script>
     </body>
 </html>
