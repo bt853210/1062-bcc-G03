@@ -12,6 +12,7 @@
 #e h3{
         color:#1a4ec3;
         text-decoration: underline;
+        margin-top: 30px;
         }
 #e h4{
         color:rgb(168, 123, 221);
@@ -21,7 +22,7 @@
         margin: 10px 10px 10px 180px;
 } 
 #e p{
-        color:rgb(34, 183, 80);
+        color:rgb(183, 34, 34);
     
         }
 #e .con{
@@ -30,8 +31,8 @@
             margin: 10px 10px 10px 120px;
             }
 #e {
-        background-color: #f0cbcb;
-        border: 3px solid #e26767;
+        background-color: #cff0cb;
+        border: 3px solid #67e26c;
         width: 900px;
         position: absolute;
         left: 50%;
